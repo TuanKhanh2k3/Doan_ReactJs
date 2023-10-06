@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Img from './product_img';
 import Name from './product_name';
 import Price from './product_price';
@@ -6,7 +7,7 @@ function ProductOne(props) {
     return (
         <>
             <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat"  >
-                <a href="/detail">
+                <NavLink to={"/detail"}>
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg">
                             <Img data={props.data.url} />
@@ -19,7 +20,7 @@ function ProductOne(props) {
                             <Price data={props.data.price} />
                         </div>
                     </div>
-                </a>
+                </NavLink>
             </div>
         </>
     )
