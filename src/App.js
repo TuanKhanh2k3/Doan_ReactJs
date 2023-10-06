@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './vendor/css/bootstrap.min.css';
 import './vendor/css/font-awesome.min.css';
-
 import './vendor/css/slicknav.min.css';
 import './vendor/css/style.css';
 import './css/Cart.css';
