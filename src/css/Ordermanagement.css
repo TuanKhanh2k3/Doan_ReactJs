@@ -1,0 +1,48 @@
+.container_Or{
+    background-color: #fff;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.order {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order h2 {
+    color: #007BFF;
+}
+
+.order-status {
+    font-weight: bold;
+}
+
+.pending {
+    background-color: #ffe600;
+}
+
+.confirmed {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.in-progress {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.delivered {
+    background-color: #00C851;
+    color: #fff;
+}
+
+.cancelled {
+    background-color: #FF4444;
+    color: #fff;
+}

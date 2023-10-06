@@ -1,0 +1,40 @@
+h3{
+    color: black;
+    padding: 2% 0% 0% 3%;
+}
+.left{
+    text-align: left;
+    padding: 2% 0% 0% 3%;
+    font-size: 26px;
+}
+.left a{
+    color: chocolate;
+}
+.right{
+    text-align: right;
+    padding: 2% 10% 0% 0%;
+    font-size: 26px;
+}
+.right a{
+    color: chocolate;
+}
+.pay{
+    text-align: inherit;
+    padding: 2% 0% 0% 24%;
+}
+.pay .cod{
+    padding: 3%;
+}
+.infomation{
+    text-align: inherit;
+    padding: 2% 0% 0% 10%;
+}
+.infomation h5{
+    margin: -1%;
+}
+.infomation p{
+    margin: 6% 0% 0% 0%;
+}
+h6{
+    padding: 2% 0% 2% 16%;
+}

@@ -1,0 +1,29 @@
+.container_info{
+    background-color: #e8f2e7;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 10%;
+}
+.personal-info {
+    margin-bottom: 20px;
+}
+
+.personal-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.bordered{
+    border: 2px solid #de9292;
+    padding: 7%;
+    border-radius: 30px;
+}
+.container_info a{
+    font-size: 25px;
+    color: #10af7d;
+}
