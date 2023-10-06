@@ -11,6 +11,7 @@ import './css/Forgotpassword.css';
 import './css/Personalinformation.css';
 import './Product.css';
 import './css/Ordermanagement.css';
+import './css/Header.css';
 import Index from './pages/index.js';
 import Product from './pages/product';
 import Login from './components/dangnhap';

@@ -16,7 +16,7 @@ function Cart() {
                     </tr>
                 </thead>
                 <tbody>
-                    <th><p>Tên Sản Phẩm<img src="img/cart/cart-1.jpg" /></p></th>
+                    <th><p>Rau Cải Xanh<img src="img/cart/cart-1.jpg" /></p></th>
                     <th><p>10.0000</p></th>
                     <th><p>2</p></th>
                     <th><p>20.000</p></th>
