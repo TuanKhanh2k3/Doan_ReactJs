@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './vendor/css/bootstrap.min.css';
 import './vendor/css/font-awesome.min.css';
+
 import './vendor/css/slicknav.min.css';
 import './vendor/css/style.css';
 import './css/Cart.css';
@@ -21,6 +22,7 @@ import SignUp from './components/signup';
 import ForgotPassword from './components/forgotpassword';
 import PersonalInformation from './components/personalinformation';
 import OrderManagement from './components/order_management';
+import Detail from './pages/product_detail';
 function App() {
   return (
     <>
@@ -34,6 +36,7 @@ function App() {
         <Route path='/forgotpassword' element={<ForgotPassword />}/>
         <Route path='/personalinformation' element={<PersonalInformation />}/>
         <Route path='/ordermanagement' element={<OrderManagement />}/>
+        <Route path='/detail' element={<Detail />}/>
       </Routes>
     </>
   );
