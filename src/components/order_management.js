@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 function OrderManagement() {
     return (
         <>
@@ -31,7 +32,9 @@ function OrderManagement() {
                     <p class="order-status cancelled">Huỷ</p>
                     <p>Chi tiết đơn hàng...</p>
                 </div>
+                <NavLink to={"/"}>Trở Lại</NavLink>
             </div>
+           
         </>
     );
 }
