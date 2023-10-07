@@ -1,5 +1,5 @@
 
-function ProductDetail() {
+function ProductDetail(props) {
     return (
         <>
             <section class="product-details spad mt-2 p-1">
@@ -9,7 +9,7 @@ function ProductDetail() {
                             <div class="w-100">
                                 <div class="product__details__pic">
                                     <div class="product__details__pic__item">
-                                        <img src="img/cart/cart-3.jpg"/>;
+                                        <img src={props.data.url} />
                                     </div>
                                 </div>
                             </div>
@@ -39,10 +39,8 @@ function ProductDetail() {
                         </div>
                         <div class="col-lg-4 col-md-4">
                             <div class="product__details__text">
-                                <p>Rau Xanh</p>
-
-                                <p>10.000</p>
-
+                                <p>{props.data.name} </p>
+                                <p>{props.data.price}</p>
                                 <div class="product__details__quantity">
                                     <div class="quantity">
                                         <div class="pro-qty">
@@ -62,4 +60,4 @@ function ProductDetail() {
         </>
     )
 }
-export default ProductDetail
+export default ProductDetail;
