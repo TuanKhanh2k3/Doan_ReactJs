@@ -1,3 +1,4 @@
+import ProductDetail from "./product_detail";
 import ProductOne from "./product_one";
 
 function Product_cpn(props) {
